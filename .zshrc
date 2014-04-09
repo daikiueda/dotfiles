@@ -1,5 +1,7 @@
 export LANG=ja_JP.UTF-8
 
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000

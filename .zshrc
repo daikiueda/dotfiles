@@ -1,6 +1,7 @@
 export LANG=ja_JP.UTF-8
 
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$PATH:$HOME/.nodebrew/current/bin
+export PATH=$PATH:$HOME/.rvm/bin
 
 
 HISTFILE="$HOME/.zsh_history"

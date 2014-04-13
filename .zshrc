@@ -1,6 +1,8 @@
 export LANG=ja_JP.UTF-8
 
-export PATH=$PATH:$HOME/.nodebrew/current/bin
+export NODE_PATH=$HOME/.nodebrew/current/bin
+
+export PATH=$PATH:$NODE_PATH
 export PATH=$PATH:$HOME/.rvm/bin
 
 

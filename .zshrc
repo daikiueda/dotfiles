@@ -1,7 +1,12 @@
+autoload -U compinit
+compinit
+
+
 export LANG=ja_JP.UTF-8
 
 export NODE_PATH=$HOME/.nodebrew/current/bin
 
+export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:$NODE_PATH
 export PATH=$PATH:$HOME/.rvm/bin
 
@@ -13,7 +18,6 @@ setopt hist_ignore_dups
 
 
 local p_mark="%B%(?,%F{green},%F{red})%(!.#.$)%f%b"
-#local p_mark="%B%(!.#.$)%b"
 PROMPT="[%c] $p_mark "
 #setopt transient_rprompt
 
@@ -25,4 +29,5 @@ alias lla='ls -al'
 
 
 . <(npm completion)
+. <(grunt --completion=zsh)
 

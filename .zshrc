@@ -27,6 +27,8 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -al'
 
+alias saykana='saykana -s 50'
+
 
 . <(npm completion)
 . <(grunt --completion=zsh)

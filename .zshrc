@@ -22,10 +22,15 @@ PROMPT="[%c] $p_mark "
 #setopt transient_rprompt
 
 
+setopt noclobber
+setopt autocd
+
 alias ls='ls -GF'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -al'
+
+alias rm='rm -i'
 
 alias saykana='saykana -s 50'
 

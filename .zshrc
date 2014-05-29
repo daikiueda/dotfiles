@@ -32,6 +32,8 @@ alias lla='ls -al'
 
 alias rm='rm -i'
 
+alias monbod='mongod --config /usr/local/etc/mongod.conf'
+
 alias saykana='saykana -s 50'
 
 

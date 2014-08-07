@@ -7,7 +7,6 @@ compinit
 export LANG=ja_JP.UTF-8
 
 export NODE_PATH=$HOME/.nodebrew/current/bin
-export NODE_PATH=$NODE_PATH:/Users/daiki/.nodebrew/current/lib/node_modules
 
 export PATH=/usr/local/bin:$PATH
 export PATH=$NODE_PATH:$PATH

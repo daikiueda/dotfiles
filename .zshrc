@@ -12,6 +12,10 @@ export PATH=/usr/local/bin:$PATH
 export PATH=$NODE_PATH:$PATH
 export PATH=$HOME/.rvm/bin:$PATH
 
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000

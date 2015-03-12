@@ -24,6 +24,13 @@ HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000
 SAVEHIST=100000
 setopt hist_ignore_dups
+setopt share_history
+
+autoload history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
 
 
 local p_mark="%B%(?,%F{green},%F{red})%(!.#.$)%f%b"
@@ -33,6 +40,9 @@ PROMPT="[%c] $p_mark "
 
 setopt noclobber
 setopt autocd
+setopt auto_pushd
+setopt correct
+
 
 alias ls='ls -GF'
 alias la='ls -a'

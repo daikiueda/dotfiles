@@ -19,6 +19,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+export PATH=$HOME/workspace/bin:$PATH
+
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000

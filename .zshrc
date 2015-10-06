@@ -6,10 +6,11 @@ compinit
 
 export LANG=ja_JP.UTF-8
 
-export NODE_PATH=$HOME/.nodebrew/current/bin
-
 export PATH=/usr/local/bin:$PATH
+
+export NODE_PATH=$HOME/.nodebrew/current/bin
 export PATH=$NODE_PATH:$PATH
+
 export PATH=$HOME/.rvm/bin:$PATH
 
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8"`
@@ -60,4 +61,4 @@ alias saykana='saykana -s 50'
 
 . <(npm completion)
 . <(grunt --completion=zsh)
-
+. <(gulp --completion=zsh)

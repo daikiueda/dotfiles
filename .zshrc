@@ -40,6 +40,10 @@ bindkey "^N" history-beginning-search-forward-end
 
 zstyle ':vcs_info:*' enable git
 zstyle ":vcs_info:*" formats "\U1F516 %F{cyan}%b%f"
+function echo_vcs_info(){
+	vcs_info
+	echo $vcs_info_msg_0_
+}
 add-zsh-hook precmd vcs_info
 
 setopt prompt_subst

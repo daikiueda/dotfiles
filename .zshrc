@@ -1,6 +1,8 @@
 fpath=(/usr/local/share/zsh/site-functions $fpath)
 
 autoload -U compinit
+autoload -Uz add-zsh-hook
+autoload -Uz vcs_info
 compinit
 
 
@@ -36,9 +38,14 @@ bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
 
 
-local p_mark="%B%(?,%F{green},%F{red})%(!.#.$)%f%b"
-PROMPT="[%c] $p_mark "
+zstyle ':vcs_info:*' enable git
+zstyle ":vcs_info:*" formats "\U1F516 %F{cyan}%b%f"
+add-zsh-hook precmd vcs_info
+
+setopt prompt_subst
 #setopt transient_rprompt
+local p_mark='%B%(?,%F{green},%F{red})%(!.#.$)%f%b'
+PROMPT='[%c$(echo_vcs_info)] $p_mark '
 
 
 setopt noclobber
@@ -62,3 +69,6 @@ alias saykana='saykana -s 50'
 . <(npm completion)
 . <(grunt --completion=zsh)
 . <(gulp --completion=zsh)
+
+
+echo -e "\n\U1F408  \U1F408  \U1F408  \U1F408\n"

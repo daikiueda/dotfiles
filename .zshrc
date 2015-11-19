@@ -24,6 +24,8 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 export PATH=$HOME/workspace/bin:$PATH
 
+export LESSKEY=$HOME/.less
+
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000

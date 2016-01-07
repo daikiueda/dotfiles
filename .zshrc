@@ -69,11 +69,11 @@ alias rm='rm -i'
 
 alias monbod='mongod --config /usr/local/etc/mongod.conf'
 
-alias saykana='saykana -s 50'
+#alias saykana='saykana -s 50'
 
 
 . <(npm completion)
-. <(grunt --completion=zsh)
+#. <(grunt --completion=zsh)
 . <(gulp --completion=zsh)
 
 

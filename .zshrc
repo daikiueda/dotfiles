@@ -22,6 +22,10 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+
 export PATH=$HOME/workspace/bin:$PATH
 
 export LESSKEY=$HOME/.less

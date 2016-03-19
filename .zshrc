@@ -25,6 +25,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
+export PATH=$PYENV_ROOT/versions/anaconda2-2.5.0/bin:$PATH
 
 export PATH=$HOME/workspace/bin:$PATH
 

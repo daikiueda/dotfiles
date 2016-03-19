@@ -4,6 +4,7 @@ autoload -U compinit
 autoload -Uz add-zsh-hook
 autoload -Uz vcs_info
 compinit
+setopt complete_aliases
 
 
 export LANG=ja_JP.UTF-8
@@ -72,9 +73,7 @@ alias lla='ls -al'
 
 alias rm='rm -i'
 
-alias monbod='mongod --config /usr/local/etc/mongod.conf'
-
-#alias saykana='saykana -s 50'
+alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
 
 
 . <(npm completion)

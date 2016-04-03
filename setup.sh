@@ -11,6 +11,7 @@ lesskey ~/workspace/dotfiles/less/lesskey
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
 ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
 ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc
+ln -s ~/workspace/dotfiles/.eslintrc ~/.eslintrc
 ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share/zsh/site-functions/_brew
 
 curl -sSL https://get.rvm.io | bash -s stable

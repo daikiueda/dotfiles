@@ -76,6 +76,9 @@ alias rm='rm -i'
 alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
 
 
+git config --global alias.st "status -sb"
+
+
 . <(npm completion)
 #. <(grunt --completion=zsh)
 . <(gulp --completion=zsh)

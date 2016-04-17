@@ -32,6 +32,8 @@ export PATH=$HOME/workspace/bin:$PATH
 
 export LESSKEY=$HOME/.less
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=100000

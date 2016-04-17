@@ -16,8 +16,14 @@ ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share
 
 curl -sSL https://get.rvm.io | bash -s stable
 
+brew install argon/mas/mas
+mas install 406056744 # Evernote
+mas install 449589707 # Dash
+mas install 803453959 # Slack
+
 brew install nodebrew
-mkdir ~/.nodebrew
-mkdir ~/.nodebrew/src
+nodebrew setup
+#mkdir ~/.nodebrew
+#mkdir ~/.nodebrew/src
 nodebrew install-binary stable
 nodebrew use stable

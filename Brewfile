@@ -10,7 +10,6 @@ brew 'the_silver_searcher'
 brew 'go'
 cask 'java', args: { appdir: '~/Applications' }
 cask 'java7', args: { appdir: '~/Applications' }
-cask 'pyenv', args: { appdir: '~/Applications' }
 cask 'dropbox'
 cask 'google-japanese-ime'
 cask 'google-chrome'

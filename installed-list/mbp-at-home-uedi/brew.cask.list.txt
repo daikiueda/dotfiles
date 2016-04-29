@@ -1,0 +1,4 @@
+atom 1.7.3
+filezilla 3.17.0
+firefox-ja 46.0
+google-chrome latest

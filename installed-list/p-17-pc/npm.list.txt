@@ -1,12 +1,12 @@
-/Users/ueda/.nodebrew/node/v6.1.0/lib
+/Users/ueda/.nodebrew/node/v6.2.0/lib
 ├── babel@6.5.2
-├── babel-cli@6.8.0
-├── browser-sync@2.12.8
-├── eslint@2.9.0
+├── babel-cli@6.9.0
+├── browser-sync@2.12.9
+├── eslint@2.10.2
 ├── gulp@3.9.1
 ├── karma-cli@1.0.0
-├── mocha@2.4.5
-├── npm@3.9.0
+├── mocha@2.5.3
+├── npm@3.9.3
 ├── npm-check@5.2.1
 └── tldr@1.6.0
 

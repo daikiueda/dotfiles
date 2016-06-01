@@ -35,6 +35,11 @@ printf "\n\e[1;36mmas list\e[m\n"
 mas list > ${LIST_FILE_PATH}/mas.list.txt
 cat ${LIST_FILE_PATH}/mas.list.txt
 
+# Atom
+printf "\n\e[1;36mapm list -i\e[m\n"
+apm list -i > ${LIST_FILE_PATH}/apm.list.txt
+cat ${LIST_FILE_PATH}/apm.list.txt
+
 printf "\n\e[1;36mgit add\e[m\n"
 cd "${LIST_FILE_PATH}"
 git add *.list.txt

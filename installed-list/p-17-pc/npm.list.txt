@@ -1,8 +1,8 @@
 /Users/ueda/.nodebrew/node/v6.2.0/lib
 ├── babel@6.5.2
 ├── babel-cli@6.9.0
-├── browser-sync@2.12.9
-├── eslint@2.10.2
+├── browser-sync@2.12.10
+├── eslint@2.11.1
 ├── gulp@3.9.1
 ├── karma-cli@1.0.0
 ├── mocha@2.5.3

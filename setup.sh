@@ -16,12 +16,16 @@ ln -s ~/workspace/dotfiles/.eslintrc ~/.eslintrc
 ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share/zsh/site-functions/_brew
 
 git config --global core.excludesfile ~/.gitignore_global
+git config --global alias.st "status -sb"
+git config --global pager.log 'diff-highlight | less'
+git config --global pager.show 'diff-highlight | less'
+git config --global pager.diff 'diff-highlight | less'
+git config --global diff.compactionHeuristic true
 
 brew install pyenv
 pyenv install anaconda2-4.0.0
 pyenv global anaconda2-4.0.0
-#pyenv local anaconda2-4.0.0
-#pip install Pygments
+
 
 curl -sSL https://get.rvm.io | bash -s stable
 
@@ -32,7 +36,5 @@ mas install 803453959 # Slack
 
 brew install nodebrew
 nodebrew setup
-#mkdir ~/.nodebrew
-#mkdir ~/.nodebrew/src
 nodebrew install-binary stable
 nodebrew use stable

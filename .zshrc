@@ -11,6 +11,8 @@ export LANG=ja_JP.UTF-8
 
 export PATH=/usr/local/bin:$PATH
 
+export PATH=/usr/local/Cellar/git/2.9.0/share/git-core/contrib/diff-highlight:$PATH
+
 export NODE_PATH=$HOME/.nodebrew/current/bin
 export PATH=$NODE_PATH:$PATH
 
@@ -76,9 +78,6 @@ alias lla='ls -al'
 alias rm='rm -i'
 
 alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
-
-
-git config --global alias.st "status -sb"
 
 
 . <(npm completion)

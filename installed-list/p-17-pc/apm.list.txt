@@ -1,4 +1,4 @@
-[36mCommunity Packages (14)[39m /Users/ueda/.atom/packages
+[36mCommunity Packages (15)[39m /Users/ueda/.atom/packages
 ├── atom-beautify@0.29.8
 ├── atom-ternjs@0.14.2
 ├── autocomplete-paths@1.0.2
@@ -8,10 +8,11 @@
 ├── git-time-machine@1.5.3
 ├── graphviz-preview@1.7.0
 ├── linter@1.11.11
-├── linter-eslint@7.2.2
+├── linter-eslint@7.2.4
 ├── minimap@4.24.6
 ├── pretty-json@1.4.1
-├── split-diff@1.0.2
+├── script@3.7.3
+├── split-diff@1.0.3
 └── terminal-plus@0.14.5
 
 └── (empty)

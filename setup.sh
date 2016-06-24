@@ -17,6 +17,14 @@ ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share
 
 git config --global core.excludesfile ~/.gitignore_global
 git config --global alias.st "status -sb"
+git config --global alias.unstage "reset -q HEAD --"
+git config --global alias.discard "checkout --"
+git config --global alias.uncommit "reset --mixed HEAD~"
+git config --global alias.amend "commit --amend"
+git config --global alias.nevermind "!git reset --hard HEAD && git clean -d -f"
+git config --global alias.graph "log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order"
+git config --global alias.precommit "diff --cached --diff-algorithm=minimal -w"
+git config --global alias.remote "remote -v"
 git config --global pager.log 'diff-highlight | less'
 git config --global pager.show 'diff-highlight | less'
 git config --global pager.diff 'diff-highlight | less'

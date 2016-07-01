@@ -21,6 +21,9 @@ export PATH=$HOME/.rvm/bin:$PATH
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8"`
 export PATH=$JAVA_HOME/bin:$PATH
 
+export SDKMAN_DIR=$HOME/.sdkman
+[[ -s $HOME/.sdkman/bin/sdkman-init.sh ]] && source $HOME/.sdkman/bin/sdkman-init.sh
+
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
@@ -37,7 +40,7 @@ export LESSKEY=$HOME/.less
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 
-HISTFILE="$HOME/.zsh_history"
+HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
 setopt hist_ignore_dups
@@ -50,7 +53,7 @@ bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
 
 
-zstyle ':vcs_info:*' enable git
+zstyle ":vcs_info:*" enable git
 zstyle ":vcs_info:*" formats "\U1F516 %F{cyan}%b%f"
 function echo_vcs_info(){
 	vcs_info
@@ -70,12 +73,12 @@ setopt auto_pushd
 setopt correct
 
 
-alias ls='ls -GF'
-alias la='ls -a'
-alias ll='ls -l'
-alias lla='ls -al'
+alias ls="ls -GF"
+alias la="ls -a"
+alias ll="ls -l"
+alias lla="ls -al"
 
-alias rm='rm -i'
+alias rm="rm -i"
 
 alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
 

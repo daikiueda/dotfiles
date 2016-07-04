@@ -82,6 +82,7 @@ alias rm="rm -i"
 
 alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
 
+alias tl="tldr"
 
 . <(npm completion)
 #. <(grunt --completion=zsh)

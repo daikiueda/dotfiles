@@ -31,8 +31,7 @@ git config --global pager.diff 'diff-highlight | less'
 git config --global diff.compactionHeuristic true
 
 brew install pyenv
-pyenv install anaconda2-4.0.0
-pyenv global anaconda2-4.0.0
+pyenv install anaconda3-4.0.0
 
 
 curl -sSL https://get.rvm.io | bash -s stable

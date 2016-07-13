@@ -1,4 +1,4 @@
-/Users/daiki/.nodebrew/node/v6.0.0/lib
+/Users/daiki/.nodebrew/node/v6.2.2/lib
 ├── babel@6.5.2
 ├── babel-cli@6.6.5
 ├── bcat@1.1.8
@@ -9,7 +9,8 @@
 ├── gulp@3.9.1
 ├── karma-cli@0.1.2
 ├── mocha@2.4.5
-├── npm@3.8.7
+├── npm@3.9.6
+├── npm-check@5.2.2
 ├── testem@1.6.0
 └── tldr@1.6.0
 

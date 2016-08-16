@@ -1,14 +1,13 @@
 appcleaner 3.2.1
-charles 3.11.4, 3.11.2
 clipy 1.0.5
 dash latest
 dropbox latest
 evernote 6.3_452832
-filezilla 3.16.0, 3.14.1
+filezilla 3.14.1 3.16.0
 firefox-ja 43.0.3
 google-chrome latest
 google-japanese-ime latest
-java 1.8.0_66-b17
+java 1.8.0_66-b17 1.8.0_92-b14
 java7 1.7.0_80
 rstudio 0.99.878
 skitch 2.7.8

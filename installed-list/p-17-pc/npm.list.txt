@@ -1,13 +1,15 @@
-/Users/ueda/.nodebrew/node/v6.2.2/lib
+/Users/ueda/.nodebrew/node/v6.3.1/lib
 ├── ansi-diff-stream@1.1.0
 ├── babel@6.5.2
-├── babel-cli@6.10.1
-├── browser-sync@2.13.0
-├── eslint@3.1.1
+├── babel-cli@6.11.4
+├── browser-sync@2.14.0
+├── eslint@3.2.2
 ├── gulp@3.9.1
 ├── karma-cli@1.0.1
-├── mocha@2.5.3
+├── mocha@3.0.2
 ├── npm@3.10.5
-├── npm-check@5.2.2
-└── tldr@1.6.0
+├── npm-check@5.2.3
+├── tldr@1.6.0
+├── to@0.2.9
+└── update@0.7.3
 

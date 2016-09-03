@@ -31,7 +31,9 @@ git config --global pager.diff 'diff-highlight | less'
 git config --global diff.compactionHeuristic true
 
 brew install pyenv
-pyenv install anaconda3-4.0.0
+CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.12
+pyenv install anaconda3-4.1.0
+pyenv global 2.7.12
 
 
 curl -sSL https://get.rvm.io | bash -s stable

@@ -13,6 +13,7 @@ ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
 ln -s ~/workspace/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc
 ln -s ~/workspace/dotfiles/.eslintrc ~/.eslintrc
+ln -s ~/workspace/dotfiles/.tldrrc ~/.tldrrc
 ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share/zsh/site-functions/_brew
 
 git config --global core.excludesfile ~/.gitignore_global

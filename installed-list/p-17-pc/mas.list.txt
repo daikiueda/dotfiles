@@ -1,3 +1,4 @@
-497799835 Xcode
-413215883 WinArchiver
-407963104 Pixelmator
+413215883 WinArchiver (2.5.2)
+497799835 Xcode (8.0)
+1127487414 Install macOS Sierra (12.0.49)
+407963104 Pixelmator (3.5.1)

@@ -3,17 +3,17 @@
 ├── auto-indent@0.5.0
 ├── autocomplete-paths@1.0.2
 ├── emmet@2.4.3
-├── file-icons@1.7.19
+├── file-icons@1.7.24
 ├── graphviz-preview@1.7.0
 ├── japanese-wrap@0.2.7
 ├── language-groovy@0.6.0
-├── linter@1.11.16
-├── linter-eslint@7.3.2
-├── minimap@4.25.0
-├── minimap-split-diff@0.3.1
-├── script@3.10.1
+├── linter@1.11.18
+├── linter-eslint@8.0.0
+├── minimap@4.25.6
+├── minimap-split-diff@0.3.2
+├── script@3.11.1
 ├── show-ideographic-space@1.0.1
-└── split-diff@1.0.4
+└── split-diff@1.0.6
 
 └── (empty)
 

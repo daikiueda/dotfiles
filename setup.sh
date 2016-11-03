@@ -28,13 +28,13 @@ git config --global alias.remote "remote -v"
 git config --global pager.log 'diff-highlight | less'
 git config --global pager.show 'diff-highlight | less'
 git config --global pager.diff 'diff-highlight | less'
+git config --global commit.verbose true
 git config --global diff.compactionHeuristic true
 
 brew install pyenv
 CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.12
-pyenv install anaconda3-4.1.0
 pyenv global 2.7.12
-
+pip install Pygments
 
 curl -sSL https://get.rvm.io | bash -s stable
 

@@ -1,0 +1,12 @@
+{
+  "themes": {
+    "original": {
+      "name": "bold",
+      "description": "",
+      "exampleDescription": "green",
+      "exampleCode": "bold,red",
+      "exampleArgument": "red"
+    }
+  },
+  "theme": "original"
+}

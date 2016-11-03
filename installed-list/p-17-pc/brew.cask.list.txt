@@ -1,10 +1,12 @@
+==> Migrating cached files to /Users/ueda/Library/Caches/Homebrew/Cask...
+/Users/ueda/Library/Caches/Homebrew/java-1.8.0_92-b14.dmg -> /Users/ueda/Library/Caches/Homebrew/Cask/java--1.8.0_92-b14.dmg
 appcleaner 3.2.1
 clipy 1.0.5
 dash latest
 dropbox latest
 evernote 6.3_452832
 filezilla 3.14.1 3.16.0
-firefox-ja 43.0.3
+firefox-ja (!) 43.0.3
 google-chrome latest
 google-japanese-ime latest
 java 1.8.0_66-b17 1.8.0_92-b14

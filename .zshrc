@@ -11,12 +11,12 @@ export LANG=ja_JP.UTF-8
 
 export PATH=/usr/local/bin:$PATH
 
-export PATH=/usr/local/Cellar/git/2.9.0/share/git-core/contrib/diff-highlight:$PATH
+export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH:
 
 export NODE_PATH=$HOME/.nodebrew/current/bin
 export PATH=$NODE_PATH:$PATH
 
-export PATH=$HOME/.rvm/bin:$PATH
+# export PATH=$HOME/.rvm/bin:$PATH
 
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8"`
 export PATH=$JAVA_HOME/bin:$PATH

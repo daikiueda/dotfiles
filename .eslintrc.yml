@@ -52,7 +52,7 @@ rules:
   dot-notation:
     - error
     - allowKeywords: true
-  eol-last: error
+  eol-last: 'off'
   eqeqeq: error
   func-call-spacing: error
   func-name-matching: error
@@ -65,10 +65,10 @@ rules:
   guard-for-in: error
   handle-callback-err: error
   id-blacklist: error
-  id-length: error
+  id-length: 'off'
   id-match: error
   indent: 'off'
-  init-declarations: error
+  init-declarations: 'off'
   jsx-quotes: error
   key-spacing: error
   keyword-spacing:
@@ -79,7 +79,7 @@ rules:
   linebreak-style:
     - error
     - unix
-  lines-around-comment: error
+  lines-around-comment: 'off'
   lines-around-directive: error
   max-depth: error
   max-len: 'off'
@@ -141,7 +141,7 @@ rules:
   no-octal-escape: error
   no-param-reassign: 'off'
   no-path-concat: error
-  no-plusplus: error
+  no-plusplus: 'off'
   no-process-env: error
   no-process-exit: error
   no-proto: error
@@ -163,7 +163,7 @@ rules:
   no-template-curly-in-string: error
   no-ternary: 'off'
   no-throw-literal: error
-  no-trailing-spaces: error
+  no-trailing-spaces: 'off'
   no-undef-init: error
   no-undefined: 'off'
   no-underscore-dangle: error
@@ -213,7 +213,7 @@ rules:
     - error
     - after: true
       before: false
-  sort-imports: error
+  sort-imports: 'off'
   sort-keys: 'off'
   sort-vars: 'off'
   space-before-blocks: error

@@ -1,4 +1,4 @@
-/Users/ueda/.nodebrew/node/v7.8.0/lib
+/Users/ueda/.nodebrew/node/v6.10.1/lib
 ├── ansi-diff-stream@1.2.0
 ├── babel@6.23.0
 ├── babel-cli@6.24.0
@@ -9,7 +9,7 @@
 ├── jsdoc-to-markdown@3.0.0
 ├── karma-cli@1.0.1
 ├── mocha@3.2.0
-├── npm@4.2.0
+├── npm@4.4.4
 ├── npm-check@5.4.0
 ├── tldr@2.0.0
 ├── to@0.2.9

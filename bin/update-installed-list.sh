@@ -15,6 +15,11 @@ else
     fi
 fi
 
+# fisher
+printf "\e[1;36mfisherman\e[m\n"
+ls -1 ~/.config/fisherman > ${LIST_FILE_PATH}/fisherman.list.txt
+cat ${LIST_FILE_PATH}/fisherman.list.txt
+
 # npm
 printf "\e[1;36mnpm ls -g --depth 0\e[m\n"
 npm ls -g --depth 0 > ${LIST_FILE_PATH}/npm.list.txt

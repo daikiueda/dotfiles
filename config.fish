@@ -5,9 +5,19 @@ set -x LANG ja_JP.UTF-8
 set -x PATH /usr/local/share/git-core/contrib/diff-highlight $PATH
 set -x LESSKEY $HOME/.less
 
-set -x NODE_PATH $HOME/.nodebrew/current/bin
-set -x PATH $NODE_PATH $PATH
+# Node.js
+set -x PATH $HOME/.nodebrew/current/bin $PATH
 
-set -x PATH $HOME/workspace/bin $HOME/workspace/dotfiles/bin $PATH
+# Python
+status --is-interactive; and source (pyenv init -|psub)
+
+# Ruby
+rbenv init - | source
+
+set -x PATH $HOME/workspace/dotfiles/bin $PATH
 
 alias ls "ls -GF"
+
+#set -x PYENV_ROOT $HOME/.pyenv
+#set -x PATH_FOR_BREW string replace $PYENV_ROOT/shims "" $PATH
+#alias brew "env PATH=$PATH_FOR_BREW brew"

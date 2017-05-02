@@ -16,13 +16,11 @@ export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH:
 export NODE_PATH=$HOME/.nodebrew/current/bin
 export PATH=$NODE_PATH:$PATH
 
-# export PATH=$HOME/.rvm/bin:$PATH
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
 
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8"`
 export PATH=$JAVA_HOME/bin:$PATH
-
-export SDKMAN_DIR=$HOME/.sdkman
-[[ -s $HOME/.sdkman/bin/sdkman-init.sh ]] && source $HOME/.sdkman/bin/sdkman-init.sh
 
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
@@ -31,9 +29,9 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
-export PATH=$PYENV_ROOT/versions/anaconda3-4.0.0/bin:$PATH
 
-export PATH=$HOME/workspace/bin:$HOME/workspace/dotfiles/bin:$PATH
+# export PATH=$HOME/workspace/bin:$HOME/workspace/dotfiles/bin:$PATH
+export PATH=$HOME/workspace/dotfiles/bin:$PATH
 
 export LESSKEY=$HOME/.less
 

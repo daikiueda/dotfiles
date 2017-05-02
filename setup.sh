@@ -5,7 +5,7 @@ brew install zsh --without-etcdir
 sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
 chsh -s /usr/local/bin/zsh
 
-brew install homebrew/dupes/less
+brew install less
 lesskey ~/workspace/dotfiles/less/lesskey
 
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
@@ -32,6 +32,10 @@ git config --global pager.show 'diff-highlight | less'
 git config --global pager.diff 'diff-highlight | less'
 git config --global commit.verbose true
 git config --global diff.compactionHeuristic true
+
+brew install rbenv
+rbenv install 2.4.1
+rbenv global 2.4.1
 
 brew install pyenv
 CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.12

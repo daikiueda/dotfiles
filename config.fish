@@ -18,6 +18,5 @@ set -x PATH $HOME/workspace/dotfiles/bin $PATH
 
 alias ls "ls -GF"
 
-#set -x PYENV_ROOT $HOME/.pyenv
-#set -x PATH_FOR_BREW string replace $PYENV_ROOT/shims "" $PATH
-#alias brew "env PATH=$PATH_FOR_BREW brew"
+set -x PATH_FOR_BREW (string join ':' (string replace $HOME/.pyenv/shims '' $PATH))
+alias brew "env PATH=$PATH_FOR_BREW brew"

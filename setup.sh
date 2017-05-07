@@ -5,6 +5,13 @@ brew install zsh --without-etcdir
 sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
 chsh -s /usr/local/bin/zsh
 
+brew install fish
+sudo sh -c "echo '/usr/local/bin/fish' >> /etc/shells"
+chsh -s /usr/local/bin/fish
+
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
+fisher install omf/theme-bobthefish
+
 brew install less
 lesskey ~/workspace/dotfiles/less/lesskey
 

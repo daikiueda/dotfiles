@@ -16,7 +16,7 @@ export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH:
 export NODE_PATH=$HOME/.nodebrew/current/bin
 export PATH=$NODE_PATH:$PATH
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init - zsh)"
 
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8"`

@@ -1,0 +1,4 @@
+/Users/daikiueda/.nodebrew/node/v6.10.2/lib
+├── gulp@3.9.1
+└── npm@4.5.0
+

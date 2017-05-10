@@ -1,0 +1,4 @@
+==> Tapping caskroom/cask
+Tapped 0 formulae (3,730 files, 3.9MB)
+==> Creating Caskroom at /usr/local/Caskroom
+==> We'll set permissions properly so we won't need sudo in the future

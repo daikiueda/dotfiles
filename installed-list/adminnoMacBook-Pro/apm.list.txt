@@ -1,0 +1,3 @@
+[36mCommunity Packages (0)[39m /Users/daikiueda/.atom/packages
+└── (empty)
+

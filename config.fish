@@ -20,3 +20,5 @@ alias ls "ls -GF"
 
 set -x PATH_FOR_BREW (string join ':' (string replace $HOME/.pyenv/shims '' $PATH))
 alias brew "env PATH=$PATH_FOR_BREW brew"
+
+alias rm=trash

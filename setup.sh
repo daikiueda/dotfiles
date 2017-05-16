@@ -60,3 +60,4 @@ brew install nodebrew
 nodebrew setup
 nodebrew install-binary stable
 nodebrew use stable
+npm i -g trash-cli

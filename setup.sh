@@ -16,7 +16,7 @@ brew install less
 lesskey ~/workspace/dotfiles/less/lesskey
 
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
-ln -s ~/workspace/dotfiles/config.fish ~/.config/fish/config.fish
+ln -s ~/workspace/dotfiles/config.fish ~/.config/fish/conf.d/config.fish
 ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
 ln -s ~/workspace/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc

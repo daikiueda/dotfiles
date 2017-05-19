@@ -7,6 +7,7 @@ set -x LESSKEY $HOME/.less
 
 # Node.js
 set -x PATH $HOME/.nodebrew/current/bin $PATH
+gulp --completion=fish | source
 
 # Python
 status --is-interactive; and source (pyenv init -|psub)
@@ -15,8 +16,6 @@ status --is-interactive; and source (pyenv init -|psub)
 rbenv init - | source
 
 set -x PATH $HOME/workspace/dotfiles/bin $PATH
-
-alias ls "ls -GF"
 
 set -x PATH_FOR_BREW (string join ':' (string replace $HOME/.pyenv/shims '' $PATH))
 alias brew "env PATH=$PATH_FOR_BREW brew"

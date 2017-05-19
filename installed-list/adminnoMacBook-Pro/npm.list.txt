@@ -1,4 +1,11 @@
-/Users/daikiueda/.nodebrew/node/v6.10.2/lib
+/Users/daikiueda/.nodebrew/node/v6.9.4/lib
+├── esdoc@0.5.2
+├── eslint@3.19.0
 ├── gulp@3.9.1
-└── npm@4.5.0
+├── jsforce@1.8.0
+├── npm@3.10.10
+├── npm-check@5.4.4
+├── stylelint@7.10.1
+├── tldr@2.0.1
+└── trash-cli@1.4.0
 

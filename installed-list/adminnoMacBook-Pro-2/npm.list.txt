@@ -1,0 +1,13 @@
+/Users/daikiueda/.nodebrew/node/v6.9.4/lib
+├── ava@0.19.1
+├── babel-cli@6.24.1
+├── esdoc@0.5.2
+├── eslint@3.19.0
+├── gulp@3.9.1
+├── jsforce@1.8.0
+├── npm@3.10.10
+├── npm-check@5.4.4
+├── stylelint@7.10.1
+├── tldr@2.0.1
+└── trash-cli@1.4.0
+

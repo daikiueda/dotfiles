@@ -15,6 +15,8 @@ fisher install omf/theme-bobthefish
 brew install less
 lesskey ~/workspace/dotfiles/less/lesskey
 
+brew install rlwrap
+
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
 ln -s ~/workspace/dotfiles/config.fish ~/.config/fish/conf.d/config.fish
 ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc

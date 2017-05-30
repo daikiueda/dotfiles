@@ -76,9 +76,12 @@ alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -al"
 
-alias rm="rm -i"
+alias rm="trash"
 
-alias brew="env PATH=${PATH//$PYENV_ROOT\/(shims|versions\/anaconda[0-9]-[0-9].[0-9].[0-9]\/bin):/} brew"
+alias node="NODE_NO_READLINE=1 rlwrap --always-readline node"
+alias babel-node="NODE_NO_READLINE=1 rlwrap --always-readline babel-node"
+
+alias brew="env PATH=${PATH//$PYENV_ROOT\/shims/} brew"
 
 alias tl="tldr"
 

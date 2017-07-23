@@ -27,6 +27,7 @@ ln -s ~/workspace/dotfiles/.tldrrc ~/.tldrrc
 ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share/zsh/site-functions/_brew
 
 git config --global core.excludesfile ~/.gitignore_global
+git config --global alias.co "checkout"
 git config --global alias.st "status -sb"
 git config --global alias.unstage "reset -q HEAD --"
 git config --global alias.discard "checkout --"

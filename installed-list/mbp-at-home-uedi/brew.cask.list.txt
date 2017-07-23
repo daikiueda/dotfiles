@@ -1,4 +1,5 @@
 atom 1.10.2
 filezilla 3.21.0
+fontforge 20161005
 google-chrome latest
 slack 2.3.0

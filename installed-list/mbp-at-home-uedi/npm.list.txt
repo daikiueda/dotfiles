@@ -1,12 +1,12 @@
-/Users/daiki/.nodebrew/node/v8.1.2/lib
-├── browser-sync@2.18.12
-├── eslint@4.1.1
-├── eslint-plugin-import@2.7.0
-├── eslint-plugin-react@7.1.0
-├── firebase-tools@3.9.1
-├── gulp@3.9.1
-├── npm@5.1.0
-├── npm-check@5.4.4
-├── tldr@2.0.1
-└── trash-cli@1.4.0
+/Users/daiki/.nodebrew/node/v9.8.0/lib
+├── browser-sync@2.18.12 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/browser-sync
+├── eslint@4.1.1 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/eslint
+├── eslint-plugin-import@2.7.0 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/eslint-plugin-import
+├── eslint-plugin-react@7.1.0 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/eslint-plugin-react
+├── firebase-tools@3.9.1 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/firebase-tools
+├── gulp@3.9.1 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/gulp
+├── npm@5.6.0
+├── npm-check@5.4.4 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/npm-check
+├── tldr@2.0.1 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/tldr
+└── trash-cli@1.4.0 -> /Users/daiki/.nodebrew/node/v8.1.2/lib/node_modules/trash-cli
 

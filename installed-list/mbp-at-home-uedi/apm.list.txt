@@ -1,5 +1,5 @@
 [36mCommunity Packages (18)[39m /Users/daiki/.atom/packages
-├── atom-beautify@0.32.0
+├── atom-beautify@0.32.2
 ├── auto-indent@0.5.0
 ├── autocomplete-paths@2.12.2
 ├── busy-signal@1.4.3

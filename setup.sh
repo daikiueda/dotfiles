@@ -1,30 +1,25 @@
 #!/bin/sh
 cd ~
 
-brew install zsh --without-etcdir
-sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
-chsh -s /usr/local/bin/zsh
-
 brew install fish
-sudo sh -c "echo '/usr/local/bin/fish' >> /etc/shells"
-chsh -s /usr/local/bin/fish
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/fish
 
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
-fisher install omf/theme-bobthefish
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+omf install bobthefish
 
-brew install less
-lesskey ~/workspace/dotfiles/less/lesskey
+fisher install jorgebucaran/nvm.fish
+nvm install latest
+npm i -g trash-cli tldr @babel/core @babel/node
+set -U nvm_default_version latest
+set -U nvm_default_packages trash-cli tldr @babel/core @babel/node
 
-brew install rlwrap
-
-ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
-ln -s ~/workspace/dotfiles/config.fish ~/.config/fish/conf.d/config.fish
-ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
-ln -s ~/workspace/dotfiles/.gitignore_global ~/.gitignore_global
-ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc
-ln -s ~/workspace/dotfiles/.eslintrc.yml ~/.eslintrc.yml
-ln -s ~/workspace/dotfiles/.tldrrc ~/.tldrrc
-ln -s /usr/local/Library/Contributions/brew_zsh_completion.zsh  /usr/local/share/zsh/site-functions/_brew
+ln -s ~/Workspace/dotfiles/config.fish ~/.config/fish/config.fish
+ln -s ~/Workspace/dotfiles/.vimrc ~/.vimrc
+ln -s ~/Workspace/dotfiles/.gitignore_global ~/.gitignore_global
+ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc
+ln -s ~/Workspace/dotfiles/.tldrrc ~/.tldrrc
 
 git config --global core.excludesfile ~/.gitignore_global
 git config --global alias.co "checkout"
@@ -42,25 +37,3 @@ git config --global pager.show 'diff-highlight | less'
 git config --global pager.diff 'diff-highlight | less'
 git config --global commit.verbose true
 git config --global diff.compactionHeuristic true
-
-brew install rbenv
-rbenv install 2.4.1
-rbenv global 2.4.1
-
-brew install pyenv
-CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.12
-pyenv global 2.7.12
-pip install Pygments
-
-curl -sSL https://get.rvm.io | bash -s stable
-
-brew install argon/mas/mas
-mas install 406056744 # Evernote
-mas install 449589707 # Dash
-mas install 803453959 # Slack
-
-brew install nodebrew
-nodebrew setup
-nodebrew install-binary stable
-nodebrew use stable
-npm i -g trash-cli

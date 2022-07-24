@@ -1,6 +1,0 @@
-#command
-#line-edit
-#env
-LESS = -R
-LESSOPEN = | lessfilter %s
-#LESSOPEN = | /usr/local/bin/src-hilite-lesspipe.sh %s

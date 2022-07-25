@@ -15,39 +15,23 @@ else
     fi
 fi
 
-# fisher
-printf "\e[1;36mfisherman\e[m\n"
-ls -1 ~/.config/fisherman > ${LIST_FILE_PATH}/fisherman.list.txt
-cat ${LIST_FILE_PATH}/fisherman.list.txt
+cd $LIST_FILE_PATH
+
+# brew
+printf "\e[1;36mbrew list --versions\e[m\n"
+rm ./Brewfile
+brew bundle dump
+brew list --versions > ${LIST_FILE_PATH}/brew.list.txt
+cat ${LIST_FILE_PATH}/brew.list.txt
 
 # npm
 printf "\e[1;36mnpm ls -g --depth 0\e[m\n"
 npm ls -g --depth 0 > ${LIST_FILE_PATH}/npm.list.txt
 cat ${LIST_FILE_PATH}/npm.list.txt
 
-# brew
-printf "\e[1;36mbrew list --versions\e[m\n"
-brew list --versions > ${LIST_FILE_PATH}/brew.list.txt
-cat ${LIST_FILE_PATH}/brew.list.txt
-
-# brew cask
-printf "\n\e[1;36mbrew cask list --versions\e[m\n"
-brew cask list --versions > ${LIST_FILE_PATH}/brew.cask.list.txt
-cat ${LIST_FILE_PATH}/brew.cask.list.txt
-
-# mas
-printf "\n\e[1;36mmas list\e[m\n"
-mas list > ${LIST_FILE_PATH}/mas.list.txt
-cat ${LIST_FILE_PATH}/mas.list.txt
-
-# Atom
-printf "\n\e[1;36mapm list -i\e[m\n"
-apm list -i > ${LIST_FILE_PATH}/apm.list.txt
-cat ${LIST_FILE_PATH}/apm.list.txt
-
 printf "\n\e[1;36mgit add\e[m\n"
 cd "${LIST_FILE_PATH}"
-git add *.list.txt
+# git add .
 git status -s
 
 printf "\n\e[1;36mdone!\e[m\n"

@@ -1,0 +1,8 @@
+/Users/daikiueda/.local/share/nvm/v18.6.0/lib
+├── @babel/core@7.18.9
+├── @babel/node@7.18.9
+├── corepack@0.12.0
+├── npm@8.13.2
+├── tldr@3.3.7
+└── trash-cli@5.0.0
+

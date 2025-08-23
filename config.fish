@@ -4,7 +4,10 @@ set -g theme_display_date no
 
 set -x LANG ja_JP.UTF-8
 
+fish_add_path $HOME/$WORK_SPACE/bin
 fish_add_path $HOME/$WORK_SPACE/dotfiles/bin
+
+set -x NODE_PATH (npm config get prefix)/bin
 
 alias rm trash
 

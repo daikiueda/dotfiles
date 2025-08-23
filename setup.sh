@@ -21,6 +21,8 @@ ln -s ~/Workspace/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc
 ln -s ~/Workspace/dotfiles/.tldrrc ~/.tldrrc
 
+ln -s ~/Workspace/dotfiles/CLAUDE.md ~/.claude/CLAUDE.md
+
 git config --global core.excludesfile ~/.gitignore_global
 git config --global alias.co "checkout"
 git config --global alias.st "status -sb"

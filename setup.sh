@@ -11,9 +11,11 @@ omf install bobthefish
 
 fisher install jorgebucaran/nvm.fish
 nvm install latest
-npm i -g trash-cli tldr @babel/core @babel/node
+npm i -g tldr 
 set -U nvm_default_version latest
-set -U nvm_default_packages trash-cli tldr @babel/core @babel/node
+set -U nvm_default_packages tldr @anthropic-ai/claude-code
+
+brew install trash
 
 ln -s ~/Workspace/dotfiles/config.fish ~/.config/fish/config.fish
 ln -s ~/Workspace/dotfiles/.vimrc ~/.vimrc

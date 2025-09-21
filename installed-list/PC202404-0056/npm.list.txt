@@ -1,0 +1,14 @@
+/Users/daiki.ueda/.local/share/nvm/v22.15.1/lib
+├── @anthropic-ai/claude-code@1.0.95
+├── @babel/core@7.27.1
+├── @babel/node@7.27.1
+├── @salesforce/cli@2.105.6
+├── @toolbox/har-analyzer@0.0.0 -> ./../../../../../workspace/har-analyzer/packages/har-analyzer
+├── @toolbox/har-feature-recorder@ -> ./../../../../../workspace/har-analyzer/packages/har-feature-recorder
+├── @toolbox/har-recorder@0.0.0 -> ./../../../../../workspace/har-analyzer/packages/har-recorder
+├── corepack@0.32.0
+├── npm@10.9.2
+├── tldr@3.4.0
+├── trash-cli@6.0.0
+└── yarn@1.22.22
+

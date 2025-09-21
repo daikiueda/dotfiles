@@ -1,4 +1,4 @@
-set -f WORK_SPACE "Workspace"
+set -f WORK_SPACE "workspace"
 
 set -g theme_display_date no
 

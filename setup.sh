@@ -18,6 +18,7 @@ set -U nvm_default_packages tldr @anthropic-ai/claude-code
 brew install trash
 
 ln -s ~/Workspace/dotfiles/config.fish ~/.config/fish/config.fish
+ln -s ~/Workspace/dotfiles/ghostty_config ~/.config/ghostty/config
 ln -s ~/Workspace/dotfiles/.vimrc ~/.vimrc
 ln -s ~/Workspace/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc

@@ -25,6 +25,7 @@ ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc
 ln -s ~/Workspace/dotfiles/.tldrrc ~/.tldrrc
 
 ln -s ~/Workspace/dotfiles/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s ~/Workspace/dotfiles/AGENTS.md ~/.codex/AGENTS.md
 
 git config --global core.excludesfile ~/.gitignore_global
 git config --global alias.co "checkout"

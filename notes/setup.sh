@@ -1,4 +1,4 @@
-#!/bin/sh
+# #!/bin/sh
 cd ~
 
 brew install fish
@@ -17,17 +17,17 @@ set -U nvm_default_packages tldr @anthropic-ai/claude-code
 
 brew install trash
 
-ln -s ~/Workspace/dotfiles/config.fish ~/.config/fish/config.fish
-ln -s ~/Workspace/dotfiles/ghostty_config ~/.config/ghostty/config
+ln -s ~/Workspace/dotfiles/_config/fish/config.fish ~/.config/fish/config.fish
+ln -s ~/Workspace/dotfiles/_config/ghostty/config ~/.config/ghostty/config
+ln -s ~/Workspace/dotfiles/_config/git/ignore ~/.config/git/ignore
 ln -s ~/Workspace/dotfiles/.vimrc ~/.vimrc
-ln -s ~/Workspace/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc
 ln -s ~/Workspace/dotfiles/.tldrrc ~/.tldrrc
 
-ln -s ~/Workspace/dotfiles/CLAUDE.md ~/.claude/CLAUDE.md
-ln -s ~/Workspace/dotfiles/AGENTS.md ~/.codex/AGENTS.md
+ln -s ~/Workspace/dotfiles/_claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s ~/Workspace/dotfiles/_codex/AGENTS.md ~/.codex/AGENTS.md
 
-git config --global core.excludesfile ~/.gitignore_global
+git config --global core.excludesfile ~/.config/git/ignore
 git config --global alias.co "checkout"
 git config --global alias.st "status -sb"
 git config --global alias.unstage "reset -q HEAD --"

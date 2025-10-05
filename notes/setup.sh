@@ -17,15 +17,15 @@ set -U nvm_default_packages tldr npm-check-updates @anthropic-ai/claude-code
 
 brew install trash
 
-ln -s ~/Workspace/dotfiles/_config/fish/config.fish ~/.config/fish/config.fish
-ln -s ~/Workspace/dotfiles/_config/ghostty/config ~/.config/ghostty/config
-ln -s ~/Workspace/dotfiles/_config/git/ignore ~/.config/git/ignore
-ln -s ~/Workspace/dotfiles/.vimrc ~/.vimrc
-ln -s ~/Workspace/dotfiles/.npmrc ~/.npmrc
-ln -s ~/Workspace/dotfiles/.tldrrc ~/.tldrrc
+ln -s ~/workspace/dotfiles/_config/fish/config.fish ~/.config/fish/config.fish
+ln -s ~/workspace/dotfiles/_config/ghostty/config ~/.config/ghostty/config
+ln -s ~/workspace/dotfiles/_config/git/ignore ~/.config/git/ignore
+ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
+ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc
+ln -s ~/workspace/dotfiles/.tldrrc ~/.tldrrc
 
-ln -s ~/Workspace/dotfiles/_claude/CLAUDE.md ~/.claude/CLAUDE.md
-ln -s ~/Workspace/dotfiles/_codex/AGENTS.md ~/.codex/AGENTS.md
+ln -s ~/workspace/dotfiles/_claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s ~/workspace/dotfiles/_codex/AGENTS.md ~/.codex/AGENTS.md
 
 git config --global core.excludesfile ~/.config/git/ignore
 git config --global alias.co "checkout"

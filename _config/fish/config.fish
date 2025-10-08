@@ -9,6 +9,7 @@ fish_add_path $HOME/$WORK_SPACE/dotfiles/bin
 fish_add_path $HOME/$WORK_SPACE/bin
 
 set -x NODE_PATH (npm config get prefix)/bin
+set -x JAVA_HOME (/usr/libexec/java_home -v 17)
 
 alias rm /opt/homebrew/opt/trash/bin/trash
 

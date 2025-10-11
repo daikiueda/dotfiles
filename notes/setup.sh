@@ -13,7 +13,7 @@ fisher install jorgebucaran/nvm.fish
 nvm install latest
 npm i -g tldr 
 set -U nvm_default_version latest
-set -U nvm_default_packages tldr @anthropic-ai/claude-code
+set -U nvm_default_packages tldr npm-check-updates @anthropic-ai/claude-code
 
 brew install trash
 
@@ -43,3 +43,4 @@ git config --global pager.show 'diff-highlight | less'
 git config --global pager.diff 'diff-highlight | less'
 git config --global commit.verbose true
 git config --global diff.compactionHeuristic true
+git config --global --add --bool push.autoSetupRemote true

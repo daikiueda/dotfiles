@@ -13,3 +13,7 @@ theme = Nocturnal Winter
 # Font
 font-family = Power Cord 1M
 font-size = 14
+
+# backgtound
+background-opacity = 0.8
+background-blur = true

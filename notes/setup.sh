@@ -13,7 +13,7 @@ fisher install jorgebucaran/nvm.fish
 nvm install latest
 npm i -g tldr 
 set -U nvm_default_version latest
-set -U nvm_default_packages tldr npm-check-updates @anthropic-ai/claude-code
+set -U nvm_default_packages tldr npm-check-updates @anthropic-ai/claude-code @openai/codex @salesforce/cli
 
 brew install trash
 

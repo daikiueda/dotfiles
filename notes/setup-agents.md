@@ -3,7 +3,7 @@
 ## Claude Code
 
 ```
-claude mcp add --scope user codex codex mcp
+claude mcp add --scope user codex codex mcp-server
 ```
 
 ```

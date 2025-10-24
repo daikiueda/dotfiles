@@ -15,5 +15,5 @@ font-family = Power Cord 1M
 font-size = 14
 
 # backgtound
-background-opacity = 0.8
+background-opacity = 0.85
 background-blur = true

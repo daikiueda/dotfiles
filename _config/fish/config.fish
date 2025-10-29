@@ -18,6 +18,8 @@ if test -d $PYENV_ROOT/bin
     pyenv init - fish | source
 end
 
+set -x JAVA_HOME (/usr/libexec/java_home -v 17)
+
 alias rm /opt/homebrew/opt/trash/bin/trash
 
 if test -f ~/.config/fish/local.fish

@@ -4,12 +4,19 @@ set -g theme_display_date no
 
 set -x LANG ja_JP.UTF-8
 
+
+fish_add_path $HOME/.pyenv/shims
 fish_add_path /opt/homebrew/opt/trash/bin
 fish_add_path $HOME/$WORK_SPACE/dotfiles/bin
 fish_add_path $HOME/$WORK_SPACE/bin
 fish_add_path "$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 
 set -x NODE_PATH (npm config get prefix)/bin
+set -x PYENV_ROOT $HOME/.pyenv
+
+if test -d $PYENV_ROOT/bin
+    pyenv init - fish | source
+end
 
 alias rm /opt/homebrew/opt/trash/bin/trash
 

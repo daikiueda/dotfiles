@@ -4,3 +4,6 @@
 **/.claude/settings.local.json
 
 __ueda__dev__/
+
+.mcp.json
+.sfdx/

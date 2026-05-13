@@ -52,3 +52,4 @@ if status is-interactive
 
     zoxide init fish | source
 end
+export PATH="$HOME/.local/bin:$PATH"

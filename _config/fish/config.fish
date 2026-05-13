@@ -49,4 +49,6 @@ if status is-interactive
     set -x LESS "-R"
     set src_hilite_lesspipe (find /opt/homebrew/Cellar/source-highlight/ -name "src-hilite-lesspipe.sh")
     set -x LESSOPEN "| $src_hilite_lesspipe %s"
+
+    zoxide init fish | source
 end

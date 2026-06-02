@@ -20,6 +20,18 @@ end
 
 alias rm /opt/homebrew/opt/trash/bin/trash
 
+function display-toggle --description '外部モニターの解像度を 2560x1440 / 3008x1692 でトグル'
+    set -l monitor B4A29C08-54BA-444A-B362-1B0BEB9CEF7D
+    # 内蔵は1470x956なので、外部の2560x1440判定とは衝突しない
+    if displayplacer list | grep -q 'Resolution: 2560x1440'
+        displayplacer "id:$monitor res:3008x1692 hz:60 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0"
+        echo '外部モニター → 3008x1692'
+    else
+        displayplacer "id:$monitor res:2560x1440 hz:60 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0"
+        echo '外部モニター → 2560x1440'
+    end
+end
+
 if test -f ~/.config/fish/local.fish
     source ~/.config/fish/local.fish
 end

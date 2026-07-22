@@ -11,7 +11,7 @@ omf install bobthefish
 
 fisher install jorgebucaran/nvm.fish
 nvm install latest
-npm i -g tldr 
+npm i -g tldr
 set -U nvm_default_version latest
 set -U nvm_default_packages tldr npm-check-updates @anthropic-ai/claude-code @openai/codex @salesforce/cli
 
@@ -20,6 +20,7 @@ brew install trash
 ln -s ~/workspace/dotfiles/_config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/workspace/dotfiles/_config/ghostty/config ~/.config/ghostty/config
 ln -s ~/workspace/dotfiles/_config/git/ignore ~/.config/git/ignore
+ln -s ~/workspace/dotfiles/_config/zed/setting.json ~/.config/zed/settings.json
 ln -s ~/workspace/dotfiles/.vimrc ~/.vimrc
 ln -s ~/workspace/dotfiles/.npmrc ~/.npmrc
 ln -s ~/workspace/dotfiles/.tldrrc ~/.tldrrc

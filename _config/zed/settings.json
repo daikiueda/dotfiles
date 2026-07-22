@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "format_on_save": "on",
+  "git_panel": {
+    "tree_view": true
+  },
+  "code_lens": "on",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "ui_font_size": 16,
+  // "buffer_font_family": ".ZedMono",
+  "buffer_font_fallbacks": ["Power Cord 1M"],
+  "buffer_font_size": 14,
+  "base_keymap": "VSCode",
+  "project_panel": {
+    "dock": "left",
+  },
+  "minimap": {
+    "show": "always",
+  },
+  "auto_indent_on_paste": true,
+  "line_ending": "prefer_crlf",
+  "agent": {
+    "sidebar_side": "right",
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "fast": "on",
+        "model": "claude-fable-5[1m]",
+        "mode": "auto",
+      },
+      "type": "registry",
+    },
+  },
+  "cli_default_open_behavior": "new_window",
+}

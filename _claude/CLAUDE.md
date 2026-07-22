@@ -48,3 +48,7 @@
 - 関数型、宣言的を好む
 - 関数の定義には、function キーワードではなく、アロー関数を使う。
   例: export const add = (n1: number, n2: number) => n1 + n2;
+
+## Bitbucket
+
+curl -u ueda.daiki@teamspirit.com:"$BITBUCKET_APP_PASSWORD" https://api.bitbucket.org/2.0/ で pullrequestsを読める
